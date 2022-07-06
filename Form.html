@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+div {
+  border-radius: 10px;
+  background-color: yellow;
+  padding: 15px;
+  width: 250px;
+  height: 200px;
+  margin:auto;
+  border:5px dotted;
+  border-color: black;
+}
+h2{
+    border-radius: 10px;
+    font-size: 30px;
+    color: blue; 
+    background-color:lightgreen; 
+    padding: 15px;
+    width: 250px;
+    height:50px;
+    margin: auto;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border:10px double;
+    border-color: black;
+}
+input[type=submit]{
+    background-color: green;
+    color: yellow;
+}
+input[type=button]{
+    background-color: red;
+    color: yellow;
+}
+label{
+    color: blue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+body{
+    background-color: aqua;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+<div2>
+<h2>SUBMIT FORM
+  <img src="https://livedoor.blogimg.jp/line_id/imgs/0/e/0e548211.png" alt="line_id"style>
+</h2>
+
+<div>
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value=" "><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value=" "><br>
+  <label for="mail">Email:</label><br>
+  <input type="email" id="mail" name="Email" value=" "><br>
+  <!-- <label for="phone_num">Phone Number:</label><br>
+  <input type="number" id="phone_num" name="phoneNum" value=" "><br> -->
+  <!-- <label for="educate">Education</label><br> -->
+    <!-- <select id="educate" name="education">
+      <option value="education1">Elementary School</option>
+      <option value="education2">Junior Highschool</option>
+      <option value="education3">Senior Highschool</option>
+      <option value="education4">Bachelor</option>
+    </select>
+    <br>
+  <p>Please select your gender:</p> -->
+  
+  <input type="radio" id="male_gender" name="gender" value="Male">
+  <label for="male_gender">Male</label><br>
+  <input type="radio" id="female_gender" name="gender" value="Female">
+  <label for="female_gender">Female</label><br><br>
+  <input type="submit" value="Submit">
+  <input type="button" value="Reset">
+  <br>
+</form> 
+</div>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+div {
+  border-radius: 10px;
+  background-color: yellow;
+  padding: 15px;
+  width: 250px;
+  height: 680px;
+  margin:auto;
+  border:5px dotted;
+  border-color: black;
+}
+h2{
+    border-radius: 10px;
+    font-size: 30px;
+    color: blue; 
+    background-color:lightgreen; 
+    padding: 15px;
+    width: 250px;
+    height:50px;
+    margin: auto;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border:10px double;
+    border-color: black;
+}
+p{
+    color: blue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+input[type=submit]{
+    background-color: green;
+    color: yellow;
+}
+input[type=button]{
+    background-color: red;
+    color: yellow;
+}
+label{
+    color: blue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+body{
+    background-color: aqua;
+}
+textarea{
+    height: 50px;
+    transition: height 1s;
+}
+textarea:hover{
+    height: 130px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  border-radius: 10px;
+}
+</style>
+<div2>
+<h2>Input Demos</h2>
+<div>
+<form action="/action_page.php">
+    <marquee direction="right">Please, insert your identity</marquee>
+    <img src="https://data.whicdn.com/images/46160399/original.gif" alt="Pikachu" width="200px" height="200px"class="center">
+  <label for="mail">Email:</label><br>
+  <input type="email" id="mail" placeholder="Email"name="Email" value=" "><br>
+  <label for="pwd">Password:</label><br>
+  <input type="password" name="name" placeholder="Password" autocomplete="new-password" class="class" id="myInput"><br>
+  <p>What is your gender?</p>
+  <input type="radio" id="male_gender" name="gender" value="Male">
+  <label for="male_gender">Male</label><br>
+  <input type="radio" id="female_gender" name="gender" value="Female">
+  <label for="female_gender">Female</label><br><br>
+  <label for="color">What is your favorite color?</label><br>
+  <select id="color" name="color">
+      <option value="col1"style="background-color:red;color:white">Red</option>
+      <option value="col2"style="background-color:green;color:white">Green</option>
+      <option value="col3"style="background-color:blue;color:white">Blue</option>
+      <option value="col4"style="background-color:white">White</option>
+      <option value="col5"style="background-color:black;color:white">Black</option>
+    </select>
+    <br>
+    <p><label for="mind">What's on your mind?</label></p>
+    <textarea id="mind" name="mind" rows="10" cols="30"></textarea>
+    <br>
+  <input type="submit" value="Submit">
+  <audio autoplay controls src="http://www.ffmages.com/ffvii/ost/disc-1/01-prelude.mp3"></audio>
+  <br>
+</form> 
+</div>
+</body>
+</html>
